@@ -1,0 +1,22 @@
+.link_container {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ececec;
+}
+.title_link {
+  margin-bottom: 20px;
+}
+.link_cast_rew {
+  color: cadetblue;
+  font-size: 18px;
+  font-weight: 600;
+}
+.active {
+  color: chocolate;
+}
+.link_cast_rew:hover,
+.link_cast_rew:focus {
+  color: chocolate;
+}

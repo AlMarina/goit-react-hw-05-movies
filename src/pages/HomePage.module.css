@@ -1,0 +1,14 @@
+.title_home {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  color: chocolate;
+}
+.icon_home {
+  fill: #908989;
+  fill: #ececec;
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,46 @@
+.link_back {
+  /* display: block; */
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ececec;
+}
+
+.icon_back {
+  fill: #ececec;
+}
+
+.container_ditails {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 1px solid;
+}
+
+.title_ditails {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: cadetblue;
+}
+
+.text_ditails {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.post_title {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.genres_list {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+}
+.overview {
+  margin-bottom: 15px;
+  font-size: 20px;
+}

@@ -1,0 +1,47 @@
+.page_header {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1100;
+  display: flex;
+  gap: 50px;
+  background-color: rgb(42, 18, 84, 0.9);
+  border-bottom: 1px solid #ececec;
+  /* border-bottom: 1px solid rgb(160, 151, 151); */
+}
+
+.nav_list {
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav_link {
+  font-size: 36px;
+  font-weight: 700;
+  color: darkcyan;
+  /* color: cadetblue; */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active {
+  color: chocolate;
+}
+
+.nav_link:hover,
+.nav_link:focus {
+  color: chocolate;
+}
+
+.nav_item:hover {
+  transform: scale(1.05);
+}
+.icon_header {
+  fill: #ececec;
+  /* fill: rgb(160, 151, 151); */
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
