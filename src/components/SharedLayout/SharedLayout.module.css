@@ -4,6 +4,7 @@
   position: sticky;
   z-index: 1100;
   display: flex;
+  align-items: center;
   gap: 50px;
   background-color: rgb(42, 18, 84, 0.9);
   border-bottom: 1px solid #ececec;
@@ -42,6 +43,5 @@
   /* fill: rgb(160, 151, 151); */
   width: 50px;
   height: 50px;
-  padding-top: 10px;
   margin-left: 10px;
 }

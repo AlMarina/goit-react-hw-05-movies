@@ -10,7 +10,7 @@ import { Suspense, lazy } from 'react';
 import Loader from './Loader/Loader';
 import { Toaster } from 'react-hot-toast';
 
-const HomePage = lazy(() => import('../pages/HomePage'));
+const HomePage = lazy(() => import('pages/HomePage'));
 const MoviesDetailsPage = lazy(() => import('pages/MoviesDetailsPage'));
 const MoviesPage = lazy(() => import('pages/MoviesPage'));
 
